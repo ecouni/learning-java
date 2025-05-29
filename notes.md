@@ -2,24 +2,37 @@
 
 This is my text file for notes taken from the java video
 
-## 📝 Vocabulary Bank:
+# 📝 Vocabulary Bank:
 
 **Java Development Kit (JDK)** - Contains a compiler that compiles your written code into byte code to run on a machine.  
 **Integraded Development Environment (IDE)** - A workspace where you can write code.
+**Comment** - Notes in the program for comprehension //(single line) or /* */ (multi line).
+**System.out.println()** - Used to output something to the console on a new line
 
-## Chapter Notes
+# Chapter Notes
 
-### Chapter 1: Introduction
+## Chapter 1: Introduction
+#### Learning Objective:  basics of programming, writing comments, and printing to console.
 
-In order to write code you need both a jdk and a ide (I use vscode).  
+In order to write code you need both a jdk and a ide (using vscode).  
 Firstly, you need to open up your class in your java file and then add in some default magic words. This can be done by using:
 
 ```java
 public class Main {
     public static void main(String[] args){
-        // Code Goes Here
+        // Code Goes Here (This is a comment, it's just notes in the program to help with understanding.)
+        /* 
+         * Comments can be single lined or multi lined depending on what you need.
+        */
     }
 }
+```
+
+To output something to the console, you can print it using:
+```java
+System.out.print("hi!!") // Prints without the addition of a new line so addint on to whatever was already present (nothing in this case).
+System.out.println("Hello World"); // This prints while also adding the subjec to a new line.
+// adding  \n into a string also has a similar effect.
 ```
 ## Chapter 2: Variables
 ## Chapter 3: User input
