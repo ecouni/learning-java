@@ -18,6 +18,8 @@ This is my text file for notes taken from the java video
 
 **Reference** - Memory address (stack) that points to the (heap).
 
+**Scanner** - Can be used to accept user input. Needs to be imported
+
 
 # Chapter Notes
 
@@ -62,6 +64,40 @@ System.out.println("My name is: " + name); // Should print "My name is: Shaniela
 
 ```
 ## Chapter 3: User input
+In order to  accept user input in java, we need a scanner which needs to be imported into your program. 
+At the  top of your program you are going to write:
+```java
+import java.util.Scanner;
+```
+For a typical program we tend to:
+
+    1) Accept input
+    2) Process it
+    3) Produce output
+In order to accept user input create a scanner object
+```java
+    Scanner scanner = new Scanner(system.in); // the name of your scannner is the lowercase
+    // you also want to close your scanner at the end of your program.
+    scanner.close();
+```
+After prompting your user for input, you can use the scanner object to take in different variable types.
+```java
+System.out.print("Enter your name: ");
+String name = scanner.nextLine; // takes in the entire next line
+// you can also take in other types of variable:
+scanner.nextBoolean();
+scanner.nextByte(); 
+scanner.nextDouble();
+scanner.nextFloat();
+scanner.nextInt();
+scanner.nextLong();
+scanner.nextShort();
+scanner.next();
+// In between assigning different scanners to variables, you can clear the scanner with just:
+Scanner.nextLine();
+// These all can be used to take in user data so it can be processed and worked with in order to give a output
+```
+
 ## Chapter 4: Mad libs game
 ## Chapter 5: Arithmetic 
 ## Chapter 6: Shopping Cart Program
