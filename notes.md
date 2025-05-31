@@ -4,10 +4,20 @@ This is my text file for notes taken from the java video
 
 # 📝 Vocabulary Bank:
 
-**Java Development Kit (JDK)** - Contains a compiler that compiles your written code into byte code to run on a machine.  
+**Java Development Kit (JDK)** - Contains a compiler that compiles your written code into byte code to run on a machine. 
+
 **Integraded Development Environment (IDE)** - A workspace where you can write code.
+
 **Comment** - Notes in the program for comprehension //(single line) or /* */ (multi line).
+
 **System.out.println()** - Used to output something to the console on a new line
+
+**Variable** - Reusable Container for a value. Behaves as if it was the value it contains
+
+**Primitive** - Simple value stored directly in memory (stack).
+
+**Reference** - Memory address (stack) that points to the (heap).
+
 
 # Chapter Notes
 
@@ -35,6 +45,22 @@ System.out.println("Hello World"); // This prints while also adding the subjec t
 // adding  \n into a string also has a similar effect.
 ```
 ## Chapter 2: Variables
+A variable contains a value and behaves like that value
+There are primitive and reference variables.
+```java
+// Primitive Types are simple and easy to understand.
+int wholeNum = 7; // an integer is a whole number
+double decimalNum = 5.2; // a double is a value that contains a decimal
+char letter = 'a'; // a character is a single letter or symbol
+boolean test = True; // a boolean is just either a true or false value.
+
+// Reference Variables are a bit more complex such as:
+String name = "Shaniela"; // A string (Word or Phrase)
+String[] Dogs = {"Billy", "Bob","Max"}; // A String Array (Containing multiple values)
+// You are able to use these variables in place of the value they're storing.
+System.out.println("My name is: " + name); // Should print "My name is: Shaniela"
+
+```
 ## Chapter 3: User input
 ## Chapter 4: Mad libs game
 ## Chapter 5: Arithmetic 
