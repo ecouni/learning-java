@@ -80,6 +80,7 @@ In order to accept user input create a scanner object
     // you also want to close your scanner at the end of your program.
     scanner.close();
 ```
+
 After prompting your user for input, you can use the scanner object to take in different variable types.
 ```java
 System.out.print("Enter your name: ");
@@ -99,6 +100,7 @@ Scanner.nextLine();
 ```
 
 ## Chapter 4: Mad libs game
+**Completed!!**
 ## Chapter 5: Arithmetic 
 ## Chapter 6: Shopping Cart Program
 ## Chapter 7: If Statements
